@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.write(st.secrets["OPENAI_API_KEY"])
+st.write(st.secrets["API_KEY"])
