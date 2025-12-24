@@ -1,5 +1,5 @@
 import streamlit as st
 
-textword = "1234"
+textword = st.secrets["API_KEY"]
 st.write(textword)
 #st.write(st.secrets["API_KEY"])
